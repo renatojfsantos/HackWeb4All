@@ -11,11 +11,35 @@
 <body>
   <div id="app">
     <!-- Todo desenvolvimento html deve estar dentro da div #app; -->
-    <button>Perua</button>
-    <button>Dona Pata</button>
-    <button>Galinha</button>
-    <button>Sr. Galo</button>
-    <button>Patinho feio</button>
+
+    <!-- div de container padrão-->
+    <div id="container-main" class="main">
+      <!-- Criar as divs de respostas-->
+      <div id="respostas" class="div-respostas">
+        <div id="alternativa" class="alternativa" draggable="true">
+          <h3>Perua</h3>
+        </div>
+        <div id="alternativa" class="alternativa" draggable="true">
+          <h3>Galinha</h3>
+        </div>
+        <div id="alternativa" class="alternativa" draggable="true">
+          <h3>Sr Galo</h3>
+        </div>
+      </div>
+
+      <div id="container-resolucao" class="div-resolucao">
+        <!-- ilustração -->
+        <div id="ilustracao" class="div-ilustracao">
+          <img src='./img/galo.png' alt="" width="150" height="" />
+        </div>
+
+        <div id="resposta" class="resposta">
+
+        </div>
+      </div>
+
+    </div>
+
   </div>
   <script src="app.js"></script>
 </body>
